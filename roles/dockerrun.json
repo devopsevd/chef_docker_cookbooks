@@ -1,0 +1,13 @@
+{
+    "name": "dockerrun",
+    "description": "Role to run a docker container",
+    "chef_type": "role",
+    "json_class": "Chef::Role",
+    "default_attributes": {
+    },
+    "override_attributes": {
+    },
+    "run_list": [
+        "recipe[dockerrun]"
+    ]
+}
