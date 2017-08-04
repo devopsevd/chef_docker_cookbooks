@@ -223,7 +223,7 @@ cat > /etc/chef/client.rb <<'EOP'
 EOP
 
 # installing the ntp service and setting the ntp server
-sudo yum -y install ntp ntpdate ntp-doc
+sudo yum -y install ntp ntpdate ntp-doc java-1.8.0-openjdk
 sudo chkconfig ntpd on
 sudo ntpdate 10.118.40.254
 
